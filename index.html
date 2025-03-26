@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos aleatorios</title>
+</head>
+<body>
+    <h1>Cats app</h1>
+    <span id="error"></span>
+
+    <section id="random"> 
+        <h2>Random Cats</h2>
+        <article>
+            <img id="img1" height="150px" width="150px" alt="Imagen de gatito aleatorio">
+            <button id="btn1" onclick="post()">Save fav</button>
+        </article>
+        <article>
+            <img id="img2" height="150px" width="150px" alt="Imagen de gatito aleatorio">
+            <button id="btn2" onclick="post()">Save fav</button>
+        </article>
+    
+        <button onclick="search()"> Change img </button>
+    </section>
+
+    <section id="favorites">
+        <h2>Favorites Cats</h2>
+        <button id="btnfavs" onclick="getfav()">Get cat fav</button>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
